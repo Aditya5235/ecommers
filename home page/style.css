@@ -1,0 +1,511 @@
+.head-box {
+    justify-content: space-between;
+    background-color: #E3E6F3;
+
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar a li {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#navbar a li:hover {
+    color: #088178;
+
+}
+
+#mobile {
+    display: none;
+    align-items: center
+}
+
+#Hmain {
+    height: 89vh;
+    width: auto;
+
+    background-image: url(https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/hero4.png?raw=true)
+}
+
+#close {
+    display: none
+}
+
+.contant {
+    top: 20%;
+    left: 30px;
+
+}
+
+.star {
+    color: rgb(243, 181, 25);
+}
+
+.b-box1 {
+    background-image: url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b17.jpg?raw=true");
+    height: 50vh;
+    width: 80vh;
+    /*    margin-left: 200px;*/
+    /*    background-color: red;*/
+}
+
+.button {
+    background-image: url(https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/button.png?raw=true);
+    color: #14cb6f;
+}
+
+.b-box2 {
+    background-image: url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b18.jpg?raw=true");
+    height: 50vh;
+    width: 80vh;
+    /*    background-color: red;*/
+}
+
+.b-text {
+    top: 30%;
+    left: 15px;
+
+}
+
+.s-box1 {
+    background-image: url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b18.jpg?raw=true");
+    height: 50vh;
+    width: 80vh;
+    /*    background-color: red;*/
+}
+
+.s-box2 {
+    background-image: url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b7.jpg?raw=true");
+    height: 50vh;
+    width: 80vh;
+    /*    background-color: red;*/
+}
+
+.s-box3 {
+    background-image: url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b4.jpg?raw=true");
+    height: 50vh;
+    width: 80vh;
+    /*    background-color: red;*/
+}
+
+#newsLatter {
+    color: white;
+    background-image: url(https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/banner/b1.jpg?raw=true)
+}
+
+.htext {
+    color: #8e99a2
+}
+
+.htext2 {
+    color: #0da559
+}
+
+.feature-card {
+    background-color: #fffbf5;
+    height: auto;
+    width: auto;
+}
+
+.f-button {
+    color: #0da559;
+    margin-top: 20px;
+    background-color: #E3E6F3
+}
+
+.future-text {
+    color: #000000;
+
+}
+
+.section-p {
+    color: #0da559;
+
+}
+
+.section-h {
+    color: #3c3d41
+}
+
+
+
+.future-containt {
+    bottom: -70%;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    backdrop-filter: blur(2px);
+    background-color: rgba(227, 230, 243, 0.89)
+}
+
+.future-come {
+    color: #3c3f41;
+}
+
+.prize {
+    color: #0da559;
+}
+
+.cart {
+    color: #f2bd6b;
+    ;
+}
+
+.future-card:hover .future-containt {
+    bottom: 0px;
+}
+
+
+
+.future-card {
+    /*    background-image: url(https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f1.jpg?raw=true);*/
+
+    height: auto;
+    width: 23%;
+    height: 50%;
+    min-width: 200px;
+    padding: 10px 12px;
+    border: 1px solid #cce7b0;
+}
+
+.future-card img {
+    width: 100%;
+
+}
+
+.future-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-between
+}
+
+.future-container {
+    height: 300px;
+    width: auto;
+
+}
+
+.arivel-contener {
+    background-color: rgba(240, 234, 226, 0.63);
+}
+
+.deal-card {
+    top: 20%;
+}
+
+.botton {
+    background-color: #0da559;
+}
+
+.box-image {
+    height: 200px;
+    /*    background-color: red*/
+}
+
+.box-content {
+    background-color: rgba(255, 255, 255, 0.62);
+    backdrop-filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    left: -120%;
+    transition: 1.5s ease;
+}
+
+
+
+.box-air {
+
+    top: 10%;
+    right: -30%;
+    transition: 1.5s ease-in-out;
+    width: 200px;
+}
+
+.box-main {
+    height: 285px;
+}
+
+.box-main:hover .box-content {
+    cursor: pointer;
+    left: 0%;
+}
+
+.box-main:hover .box-air {
+    left: 90%;
+    right: -90%
+}
+
+.box-button {
+    background-color: rgba(247, 234, 200, 0.83);
+    color: #f5ae0e;
+    transition: 0.25s ease-in;
+}
+
+.box-button:hover {
+    background-color: rgb(239, 215, 153);
+}
+
+.navbar a {
+    text-transform: capitalize;
+}
+
+.navbar a:hover {
+    color: #3a0ff2;
+    border-bottom: 2px solid #3a0ff2;
+    cursor: pointer;
+}
+
+.seasonal-1 {
+    top: 20px;
+    left: 20px;
+    font-size: 30px
+}
+
+.seasonal-2 {
+    top: 100px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+}
+
+.menu__link:hover {
+    opacity: 1;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+}
+
+#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0px;
+    animation: animateWaves 4s linear infinite;
+}
+
+#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 3s linear infinite;
+}
+
+#wave3 {
+    z-index: 1000;
+    opacity: 0.3;
+    bottom: 15px;
+    animation: animateWaves 4s linear infinite;
+}
+
+#wave4 {
+    background-color: red z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: -1000px;
+    }
+
+    100% {
+        background-positon-x: 0px;
+    }
+}
+
+@media (max-width: 799px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0px 40px 60px rgb(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        column-gap: 30px;
+        transition: 0.3s;
+    }
+
+    .navbar ul {
+        column-gap: 30px;
+    }
+
+    .navbar.active {
+        right: 0px;
+    }
+
+    .navbar li {
+        margin-bottom: 20px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #Hmain {
+
+        height: 70vh;
+        background-position: top 30% right 30%;
+    }
+
+    .feature-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    future-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+
+    }
+
+    #banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+
+        margin: 0px auto;
+
+    }
+
+    .B-box {
+        max-width: 100%;
+        height: 30vh;
+    }
+
+    .box-main {
+        max-width: 100%;
+        height: 30vh;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+}
+
+@media (max-width:477px) {
+
+    #Hmain {
+
+        height: 100vh;
+        background-position: top 30% right 30%;
+    }
+
+    .contant {
+        top: 20%;
+        left: 30px;
+        font-size: 10px
+    }
+
+    .contant h2 {
+
+        font-size: 40px
+    }
+
+}

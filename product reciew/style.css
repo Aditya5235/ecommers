@@ -1,0 +1,71 @@
+.p-review {
+    width: 66%;
+    height: 150vh;
+    /*    padding: 20px 0px 0px 20px;*/
+}
+
+.product-img {
+    width: 200%;
+    height: 50%
+}
+
+.product-details {
+    width: 200vh;
+}
+
+.images {
+    padding: 10px;
+    width: 20%;
+    height: 20px
+}
+
+.images img {
+    border: 1px solid #a7a5a5;
+    width: 94px;
+    height: 121px;
+}
+
+.rate-box {
+    text-align: center;
+    margin: 20px;
+    border: 2px solid gray;
+    width: 200vh;
+    height: 100vh
+}
+
+.rate-box p {
+    color: #1bc41b;
+}
+
+.rate-box span {
+    color: gray
+}
+
+.sizes a {
+    margin: 2px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /*    background-color: #0ac7aa;*/
+    color: #0ac7aa;
+    border: 2px solid #0ac7aa;
+}
+
+.buttons button {
+    border-radius: 20px;
+    padding: 10px 6px;
+    background-color: #f2701f;
+    color: white
+}
+
+.text-semibold {
+    color: #1cba1c;
+
+}
+
+.product-details {
+    width: 200vh;
+}
+
+#Arival {
+    margin-bottom: 200px
+}

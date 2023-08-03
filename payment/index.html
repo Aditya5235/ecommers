@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        product review</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/home page/style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+
+    <section id="header">
+        <div class="head-box shadow-lg items-center  flex gap-x-50 px-6 p-4 ">
+            <a><img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/logo.png?raw=true"></a>
+            <ul id="  " class=" navbar flex gap-10 px-4 text-center">
+                <a target="_blank" href="/home page/index.html">
+                    <li class="text-sm Ncomponent">home</li>
+                </a>
+                <a href="/product reciew/index.html">
+                    <li class="text Ncomponent">shope</li>
+                </a>
+                <a>
+                    <li class="text-sm Ncomponent">blog</li>
+                </a>
+                <a>
+                    <li class="text-sm Ncomponent">about</li>
+                </a>
+                <a>
+                    <li class="text-sm Ncomponent">contect</li>
+                </a>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="payment">
+        <div class="payment flex px-8 py-10 mb-20">
+
+
+            <div class="w-full">
+                <form>
+                    <div class="flex gap-4">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Last name:</label>
+                            <input type="text" id="email" name="email" required>
+
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <label for="name">
+                                phone no.</label>
+                            <input type="number" id="name" name="name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                        </div>
+                    </div>
+                    <br>
+
+                    <label for="age">Address:</label>
+                    <input type="text" id="age" name="age" required>
+                    <br>
+
+                    <label for="age">Town/city:</label>
+                    <input type="text" id="age" name="age" required>
+
+                    <br>
+                    <label for="age">State:</label>
+                    <input type="text" id="age" name="age" required>
+
+                    <br>
+
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select a country</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="india">India</option>
+                    </select>
+                    <br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <br>
+
+                    <label for="subscribe">Subscribe:</label>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Yes, I want to subscribe to newsletters.</label>
+                    <br>
+
+                    <input type="submit" value="Submit">
+                </form>
+
+            </div>
+            <div class="p-review mx-6 w-full p-6 border-4 bprder-solid border-gray-400">
+                <div>
+                    <div class="flex justify-between text-3xl pb-4">
+                        <h1>Product</h1>
+                        <h1>Total</h1>
+
+                    </div>
+
+                    <hr />
+                    <div class="flex justify-between pb-4">
+                        <h1>belted top × <span>3</span></h1>
+                        <h1>$443</h1>
+
+                    </div>
+                    <hr />
+                    <div class="flex justify-between pb-4">
+                        <h1>subtotle</h1>
+                        <h1 class="text-red-700">$443</h1>
+
+                    </div>
+                    <div class="flex justify-between pb-4">
+                        <h1>Shipping</h1>
+                        <div class="grid grid-row-1">
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="male">Shipping</label>
+
+                            </div>
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Local pickup</label>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex justify-between pb-10">
+                        <h1> Totle</h1>
+                        <h1 class="text-green-500">$443</h1>
+
+                    </div>
+
+                    <hr>
+                    <div class="flex justify-between pb-4">
+                        <div>
+                            <h1> Choses Payment Methode</h1>
+                        </div>
+                        <div class="flex flex-col">
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="male">Shipping</label>
+
+                            </div>
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Local pickup</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Local pickup</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Local pickup</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-right">
+                            <input type="submit" value="Place Odder">
+                        </div>
+                    </div>
+
+                </div>
+                <div />
+                <div />
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer   ">
+        <div class="waves  ">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+        </ul>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+        </ul>
+        <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
+    </footer>
+
+
+
+
+</body></html>
